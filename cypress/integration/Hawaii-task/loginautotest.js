@@ -29,7 +29,7 @@ describe('Проверка ошибки авторизации', function () {
    it('Негативный кейс: верный логин и неверный пароль', function () {
       cy.get('button.profile__nav-link').click();
       cy.get('.box__button_ok').click();
-      cy.get('.header-bottom__right--link').click();
+      cy.get('.header-bottom__right--link').click({ multiple: true });
       cy.get('.auth-form > form > [type="email"]').type('invento7@yandex.ru');
       cy.get('.auth-form > form > [type="password"]').type('A234569');
       cy.get('.auth-form__submit > .s-button__content').click();
