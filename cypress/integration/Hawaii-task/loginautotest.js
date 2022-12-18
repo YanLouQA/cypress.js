@@ -35,3 +35,4 @@ describe('Проверка ошибки авторизации', function () {
       cy.get('.auth-form__submit > .s-button__content').click();
       cy.contains('Невозможно войти с предоставленными учетными данными.');
     })
+})
