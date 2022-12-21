@@ -4,7 +4,7 @@
 // 3. Checking the authorization error with the correct login and incorrect password;
 
 // Terms:
-// Requires pre-registration on the website of the store.
+// Requires pre-registration on the website of the store https://staya.dog/
 
 
 describe('Проверка авторизации', function () {
