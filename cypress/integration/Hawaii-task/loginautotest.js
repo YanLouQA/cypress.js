@@ -1,3 +1,12 @@
+// Goals:
+// 1. Verification of authorization;
+// 2. Verification of adding the product to the shopping cart;
+// 3. Checking the authorization error with the correct login and incorrect password;
+
+// Terms:
+// Requires pre-registration on the website of the store.
+
+
 describe('Проверка авторизации', function () {
    it('Позитивный кейс: валидные логин и пароль', function () {
       cy.visit('https://staya.dog/');
